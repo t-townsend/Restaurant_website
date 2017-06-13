@@ -20,28 +20,25 @@ body {
      padding: (@padding * 4) 0;
  }
 
-ul, ol {
-
+.main-nav {
+     line-height: 36px; // vertical center with logo
 }
 
-li {
-
- }
-
-a, a:link, a:visited {
-
+.main-nav ul {
+     margin-bottom: 0;
 }
 
-a:hover {
-
+.main-nav li.divider {
+     color: @grey;
 }
 
-p{
-
+.main-nav a {
+     text-decoration: none;
 }
 
-hr {
-
+.main-nav a:hover {
+     border-bottom: (@border-size * 5) @border-type @grey;
+     transition: border-color 0.2s ease;
  }
 
 /*
