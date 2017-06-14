@@ -41,20 +41,32 @@ body {
      transition: border-color 0.2s ease;
  }
 
+ .footer {
+     text-align: center;
+     color: @inverse-text;
+     padding-bottom: (@padding * 4);
+}
+
+.footer .container {
+     background: @inverse-background;
+     padding: (@padding * 4) 0;
+}
+
+ .social-media {
+       padding: @padding 0;
+}
+
+// space out social media icons and change link color
+   .social-media a {
+     padding: 0 (@padding - 0.5);
+     color: @white;
+   }
+   // hover link color for social media icons
+   .social-media a:hover {
+     color: @grey;
+   }
+
 /*
 02. LAYOUT
 Styles specific to your layout or website
 */
-
-   .red1 {
-     color: @red1;
-}
-   .red1-bg {
-     background: @red1;
-}
-   .red2 {
-     color: @red2;
-}
-   .red2-bg {
-     background: @red2;
-}
