@@ -1,6 +1,7 @@
 @import "components/_variables";
 @import "components/_typography.less";
-// @import "components/_form-validation.less";
+@import "components/_carousel.less";
+
 
 body {
      background: @primary-background;
@@ -81,6 +82,23 @@ body {
    .home-about {
      padding: (@padding * 4) 0 (@padding * 6) 0;
    }
+
+   // center all items
+   .home-food {
+     text-align: center;
+   }
+ // add a little extra padding under images
+   .home-food img {
+     padding-bottom: @padding;
+     margin-right: @margin;
+   }
+
+    // add review padding consistent with about
+   .reviews {
+     padding: (@padding * 4) 0 (@padding * 6) 0;
+   }
+
+
 
 /*
 02. LAYOUT
