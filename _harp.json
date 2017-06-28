@@ -1,6 +1,6 @@
 
    {
      "globals": {
-       "siteTitle": "My Bootstrap Boilerplate"
+       "pageTitle": "My Bootstrap Boilerplate"
      }
 }
